@@ -1,0 +1,28 @@
+/*webkit-sassui-text-justify Start*/
+.webkit-sassui-text-justify {
+  text-align: justify;
+  text-justify: distribute-all-lines;
+}
+
+.webkit-sassui-text-justify-fix {
+  font-size: 0;
+}
+
+.webkit-sassui-text-justify > * {
+  text-align: left;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.webkit-sassui-text-justify:after {
+  width: 100%;
+  height: 0;
+  display: inline-block;
+  overflow: hidden;
+  content: '';
+}
+
+/*webkit-sassui-text-justify End*/
+.test-webkit-sassui-text-justify {
+  border: 1px solid #f00;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "webkit-sassui-text-justify",
+  "description": "Text align justify for webkit sassui",
+  "main": [
+    "dist/webkit-sassui-text-justify.css",
+    "dist/webkit-sassui-text-justify.scss"
+  ],
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "webkit",
+    "cssui",
+    "text-justify"
+  ],
+  "homepage": "https://github.com/afeiship/webkit-cssui-absolute-center",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}

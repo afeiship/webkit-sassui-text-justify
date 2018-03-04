@@ -3,20 +3,17 @@
 .webkit-sassui-text-justify {
     text-align: justify;
     text-justify: distribute-all-lines;
-    &-fix {
-        font-size: 0;
-    }
+    font-size: 0;
 
     >* {
         text-align: left;
-        vertical-align: middle;
         display: inline-block;
+        vertical-align: top;
     }
+
     &:after {
         width: 100%;
-        height: 0;
         display: inline-block;
-        overflow: hidden;
         content: '';
     }
 }

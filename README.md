@@ -6,3 +6,4 @@
 
 ## resources:
 + https://github.com/afeiship/generator-webkit-sassui
++ https://kristinlbradley.wordpress.com/2011/09/15/cross-browser-css-justified-block-list/

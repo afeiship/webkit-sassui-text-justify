@@ -1,23 +1,27 @@
 {
-  "name": "webkit-sassui-text-justify",
-  "version": "0.0.0",
-  "description": "Text align justify for webkit sassui",
+  "name": "@feizheng/webkit-sassui-text-justify",
+  "version": "1.0.0",
+  "description": "Text align justify for webkit sassui.",
   "homepage": "https://github.com/afeiship/webkit-sassui-text-justify",
   "author": {
     "name": "afei",
     "email": "1290657123@qq.com"
   },
   "scripts": {
-    "build":"gulp"
+    "build": "gulp",
+    "start": "node ./express.js"
   },
-  "main":"dist/webkit-sassui-text-justify.scss",
+  "main": "dist/webkit-sassui-text-justify.scss",
   "license": "MIT",
   "devDependencies": {
-    "del": "^2.2.1",
-    "gulp": "^3.9.1",
-    "gulp-load-plugins": "^1.2.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.3.2",
+    "del": "^5.1.0",
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-load-plugins": "^2.0.1",
+    "gulp-sass": "^4.0.2",
     "yargs": "^4.7.1"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }

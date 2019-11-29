@@ -8,13 +8,12 @@
 .webkit-sassui-text-justify > * {
   text-align: left;
   display: inline-block;
-  vertical-align: top;
 }
 
 .webkit-sassui-text-justify:after {
   width: 100%;
   display: inline-block;
-  content: '';
+  content: "";
 }
 
 /*webkit-sassui-text-justify End*/

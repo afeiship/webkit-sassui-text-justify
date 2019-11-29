@@ -1,22 +1,20 @@
 /*webkit-sassui-text-justify Start*/
 
 .webkit-sassui-text-justify {
-    text-align: justify;
-    text-justify: distribute-all-lines;
-    font-size: 0;
+  text-align: justify;
+  text-justify: distribute-all-lines;
+  font-size: 0;
 
-    >* {
-        text-align: left;
-        display: inline-block;
-        vertical-align: top;
-    }
+  > * {
+    text-align: left;
+    display: inline-block;
+  }
 
-    &:after {
-        width: 100%;
-        display: inline-block;
-        content: '';
-    }
+  &:after {
+    width: 100%;
+    display: inline-block;
+    content: "";
+  }
 }
-
 
 /*webkit-sassui-text-justify End*/

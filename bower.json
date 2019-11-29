@@ -1,6 +1,6 @@
 {
   "name": "webkit-sassui-text-justify",
-  "description": "Text align justify for webkit sassui",
+  "description": "Text align justify for webkit sassui.",
   "main": [
     "dist/webkit-sassui-text-justify.css",
     "dist/webkit-sassui-text-justify.scss"

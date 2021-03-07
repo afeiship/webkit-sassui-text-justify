@@ -1,0 +1,41 @@
+/*wsui-text-justify Start*/
+.wsui-text-justify {
+  text-align: justify;
+  text-justify: distribute-all-lines;
+  font-size: 0;
+}
+
+.wsui-text-justify > * {
+  text-align: left;
+  display: inline-block;
+}
+
+.wsui-text-justify:after {
+  width: 100%;
+  display: inline-block;
+  content: "";
+}
+
+/*wsui-text-justify End*/
+.test-wsui-text-justify {
+  border: 1px solid red;
+}
+
+.f-normal {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.blank-20 {
+  height: 20px;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  width: 450px;
+  padding: 20px;
+  margin: 20px auto;
+  border: 1px solid sandybrown;
+}

@@ -1,0 +1,22 @@
+/*!
+ * name: @jswork/wsui-text-justify
+ * description: Text align justify for webkit sassui.
+ * homepage: https://github.com/afeiship/wsui-text-justify
+ * version: 1.0.0
+ * date: 2021-03-07 11:15:51
+ * license: MIT
+ */
+/*wsui-text-justify Start*/
+.wsui-text-justify {
+  text-align: justify;
+  text-justify: distribute-all-lines;
+  font-size: 0; }
+  .wsui-text-justify > * {
+    text-align: left;
+    display: inline-block; }
+  .wsui-text-justify:after {
+    width: 100%;
+    display: inline-block;
+    content: ""; }
+
+/*wsui-text-justify End*/
